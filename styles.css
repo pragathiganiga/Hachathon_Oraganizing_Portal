@@ -1,0 +1,138 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main_container {
+    width: 100vw; /*view width */
+    height:100vh; /*view height */
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_bar{
+    width: 25%;
+    height: 100%;
+    background-color: #222830;
+    color: white;   
+    overflow-y: scroll;
+}
+
+.nav_result {
+    width: 75%;
+    height: 100%;
+    background-color:#e9eaef;
+}
+
+.feature {
+    padding: 30px 20px;
+    cursor: pointer;
+}
+
+.feature:hover {
+    background-color: black;
+}
+
+.logout{
+    background-color: red;
+}
+
+.logout:hover{
+    background-color: red;
+}
+
+.project_title{
+    border-bottom: 1px solid white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hackathon_form{
+    width: 35%;
+    height: 80vh;
+}
+
+.hackathon_table{
+    height: 400px;
+    width: 50%;
+    box-shadow: 1px 1px 10px #00000038;
+    overflow: scroll;
+}
+
+.manage_hackathon{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.count_div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    width: 250px;
+    height: 150px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.all_hackathon_count{
+    background-image: url(images/card1.png) ;
+    border-bottom: 10px solid rgb(237, 202, 88);
+}
+
+.active_hackathon_count{
+    background-image: url(images/card2.png);
+    border-bottom: 10px solid rgb(98, 229, 212);
+}
+
+.teams_participating_count{
+    background-image: url(images/card3.png);
+    border-bottom: 10px solid rgb(11, 153, 192);
+}
+
+.project_submitted_count{
+    background-image: url(images/card4.png);
+    border-bottom: 10px solid rgb(225, 188, 1);
+}
+
+.organiser_dashboard_container{
+    padding: 30px 0 0 70px ;
+}
+
+.active_hackathon_table, .all_hackathon_table{
+    height: 260px;
+    overflow: scroll;
+    width: 90%;
+    box-shadow: 1px 1px 10px #00000038;
+}
+
+.update_details_form{
+
+    width: 40%;
+    margin-left: 90px;
+}
+
+.update_hacathon {
+   height: 90%;
+}
+
+.all_active_hackathon_table{
+    height: 600px;
+    overflow: scroll;
+    width: 90%;
+    box-shadow: 1px 1px 10px #00000038;
+}
